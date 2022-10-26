@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/harshita1225/period-tracker.git/static/css/main.f64ec082.css",
+    "main.js": "/harshita1225/period-tracker.git/static/js/main.e4f275a9.js",
+    "index.html": "/harshita1225/period-tracker.git/index.html",
+    "main.f64ec082.css.map": "/harshita1225/period-tracker.git/static/css/main.f64ec082.css.map",
+    "main.e4f275a9.js.map": "/harshita1225/period-tracker.git/static/js/main.e4f275a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f64ec082.css",
+    "static/js/main.e4f275a9.js"
+  ]
+}
