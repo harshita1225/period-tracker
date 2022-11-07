@@ -21,10 +21,16 @@ function App() {
   return (
     <div className="App">
       <div className="periodTracker">
-        <div className=" container-sm bg-secondary bg-gradient d-flex  flex-column  align-items-center gap-3 my-5 border border-dark border-2">
+        <div className=" container-sm bg-secondary bg-gradient d-flex  flex-column  align-items-center gap-2 my-5 border border-dark border-2">
           <h4 className="text-dark my-3">Calculate Next Period Date 📲</h4>
 
-          <Calendar className="Calender mt-2" onChange={setDate} value={date} />
+          <h5>Please select your last period date</h5>
+          <Calendar
+            label="Please select your last period date"
+            className="Calender mt-2"
+            onChange={setDate}
+            value={date}
+          />
           <label className="text-dark">
             Select your Cycle Length :
             <select onChange={(e) => setCycle(e.target.value)}>
